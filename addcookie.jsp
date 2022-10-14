@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content=Type" Content="text/html; charset="ECU-KR">
-<title>JSP ì˜ˆì œ: main.jsp</title>
+<title>JSP ¿¹Á¦: main.jsp</title>
 </head>
 <body>
-	<h1>ì¿ í‚¤ ë§Œë“¤ê¸° ì˜ˆì œ</h1>
+	<h1>ÄíÅ° ¸¸µé±â ¿¹Á¦</h1>
 	<hr>
 	Cookie cookie = new Cookie("user", "kang");<br>
 	cookie.setMaxAge(2*60);<br>
@@ -17,6 +17,6 @@
 		cookie.setMaxAge(2*60);
 		response.addCookie(cookie);
 	%>
-	<hr><a href=addtimecookie.jsp>í˜„ì¬ ì ‘ì† ì‹œê°ì„ ì¿ í‚¤ë¡œ ì¶”ê°€</a>
+	<hr><a href=addtimecookie.jsp>ÇöÀç Á¢¼Ó ½Ã°¢À» ÄíÅ°·Î Ãß°¡</a>
 </body>
 </html>
