@@ -1,0 +1,8 @@
+use univdb;
+
+insert into student(id, passwd, name, year, snum, depart, mobile1, mobile2, address, email)values
+("gonji","young","공지영",2009,"2065787","컴퓨터공학과","016","2975-9854","인천시","gong@hotmail.com"),
+("javajsp","java8394","김정수",2010,"1077818","컴퓨터공학과","011","7949-9875","서울시","java@gmail.com"),
+("korea","9943inner","안익태",2010,"1987372","컴퓨터공학과","017","2670-4593","천안시","wing@gmail.com"),
+("novel","elephant","조경란",2011,"2056485","기술경영과","016","3487-9919","부산시","novel@hanmmail.com"),
+("water","javayoung","조수영",2010,"1176432","인터넷비즈니스과","011","5531-6677","서울시","singer@gmail.com");
