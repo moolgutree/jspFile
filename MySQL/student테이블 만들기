@@ -1,0 +1,13 @@
+create table univdb.student (
+id	varchar(20)	NOT NULL,
+passwd	varchar(20) not null,
+name	varchar(20) not null,
+year	int			null,
+snum	int			null,
+depart	varchar(10)	null,
+mobile1	char(3)		null,
+mobile2	varchar(10)	null,
+address varchar(65) null,
+email	varchar(30)	null,
+primary key	(id)
+);
